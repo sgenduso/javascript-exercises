@@ -14,7 +14,7 @@ describe('first', function() {
 describe('last', function() {
 
   xit('returns the last element for a given Array', function() {
-    expect(yourCode.last(['foo', 'bar'])).toEqual('bar');
+    expect(yourCode.last(['foo', 'monkey', 'bar'])).toEqual('bar');
   });
 
   xit('returns undefined when given an empty Array', function() {
