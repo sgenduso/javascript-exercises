@@ -6,7 +6,7 @@ describe('returnArray', function() {
   });
 });
 
-describe('division', function() {
+describe('divide', function() {
   xit('returns the result of division of the arguments', function() {
     expect(yourCode.divide(1,2)).toEqual(0.5);
     expect(yourCode.divide(1,0)).toEqual(Infinity);
@@ -14,7 +14,7 @@ describe('division', function() {
   });
 });
 
-describe('addition', function() {
+describe('add', function() {
   xit('returns the result of addition of the arguments', function() {
     expect(yourCode.add(1,2)).toEqual(3);
   });
