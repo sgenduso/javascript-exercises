@@ -38,7 +38,7 @@ describe('savorynessProperty', function() {
   });
 });
 
-describe('unsortedKeys', function() {
+describe('keys', function() {
   xit('returns the keys of the given object as an Array', function() {
     var obj = {
       the: true,
