@@ -24,13 +24,13 @@ describe('firstGreater', function() {
 
 describe('firstGreaterOrEqualTo', function() {
   xit('returns true if the first argument is greater than or equal to the second argument', function() {
-    expect(yourCode.firstGreaterThanOrEqualTo('a', 'A')).toEqual(true);
-    expect(yourCode.firstGreaterThanOrEqualTo(1, 2)).toEqual(false);
+    expect(yourCode.firstGreaterOrEqualTo('a', 'A')).toEqual(true);
+    expect(yourCode.firstGreaterOrEqualTo(1, 2)).toEqual(false);
   });
 
   xit('returns false if the first argument is (strictly) less than the second argument', function() {
-    expect(yourCode.firstGreaterThanOrEqualTo('a', 'b')).toEqual(false);
-    expect(yourCode.firstGreaterThanOrEqualTo(3, -1)).toEqual(true);
+    expect(yourCode.firstGreaterOrEqualTo('a', 'b')).toEqual(false);
+    expect(yourCode.firstGreaterOrEqualTo(3, -1)).toEqual(true);
   });
 });
 
