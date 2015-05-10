@@ -1,7 +1,7 @@
 module.exports = {
 
   helloWorld: function(){
-    // fill me i
+    // fill me in
   },
 
   hello: function(string){
