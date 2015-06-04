@@ -8,15 +8,24 @@
   [a,b,c]
   [d,e,f]
 
+  Then reverse the second array:
+
+  [a,b,c]
+  [f,e,d]
+
   For the first rotation, keep `a` in the same position, but _rotate_ all the other
   elements clockwise:
 
-  [a,d,b]
-  [e,f,c]
-
-  Continue doing this until the array is back at the same position.
+  [a,f,b]
+  [e,d,c]
 
   Then, take each pair.
+
+  [a,f,b]  => [ [a,e], [f,d], [b,c] ]
+  [e,d,c]
+
+  Continue doing this until the array is back at the original position.
+
 */
 
 module.exports = function (input) {
