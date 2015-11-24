@@ -24,6 +24,6 @@ jasmine
 
 in that warm-up's root directory (in our example this is `00_functions`).
 
-#### How to Do a Warm-up
+#### How to Do a Challenge
 
 You will observe that some specs show `*` as output, indicating that they are pending. After making all failing tests pass, modify `spec/spec.js` and change the first `xit` (pending test) to `it` and re-run specs to see the failure, next fill-in the missing functionality and repeat until there are no more pending tests and all tests pass.
