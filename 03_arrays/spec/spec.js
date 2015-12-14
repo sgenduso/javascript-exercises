@@ -51,7 +51,7 @@ describe('last_n', function() {
     expect(yourCode.last_n([], 3)).toEqual([]);
   });
 
-  it('returns as many elements as xit can when there are less than n', function() {
+  it('returns as many elements as it can when there are less than n', function() {
     expect(yourCode.last_n([1,2], 3)).toEqual([1,2]);
   });
 
@@ -61,21 +61,21 @@ describe('last_n', function() {
 });
 
 describe('drop', function() {
-  xit('returns the elements after n elements have been dropped', function() {
+  it('returns the elements after n elements have been dropped', function() {
     expect(yourCode.drop([1,2,3,4,5,6], 3)).toEqual([4,5,6]);
   });
 
-  xit('returns an empty array if there not enough elements after dropping the n elements', function() {
+  it('returns an empty array if there not enough elements after dropping the n elements', function() {
     expect(yourCode.drop([1,2], 3)).toEqual([]);
   });
 });
 
 describe('union', function() {
-  xit('returns the union of two arrays provided as arguments', function() {
+  it('returns the union of two arrays provided as arguments', function() {
     expect(yourCode.union([1,2], [3,4,5])).toEqual([1,2,3,4,5]);
   });
 
-  xit('returns an empty array when both arguments are empty arrays', function() {
+  it('returns an empty array when both arguments are empty arrays', function() {
     expect(yourCode.union([], [])).toEqual([]);
   });
 });

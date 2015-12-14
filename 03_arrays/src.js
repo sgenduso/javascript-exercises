@@ -21,7 +21,29 @@ module.exports = {
   },
 
   last_n: function (array, n) {
-    
-  }
+    if (array.length === 0 || array.length < n) {
+      return array;
+    } else {
+      return array.splice(array.length-n, array.length + 1);
+    }
+  },
+
+  drop: function (array, n) {
+    if (array.length < n) {
+      return [];
+    } else {
+      return array.splice((n), (array.length + 1));
+    }
+  },
+
+  union: function (array1, array2) {
+    if (!array1.length && !array2.length) {
+      return [];
+    } else {
+      return array1.concat(array2);
+    }
+  },
+
+  intersection: function (array1, array2) {}
 
 };
