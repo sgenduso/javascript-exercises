@@ -10,7 +10,7 @@ describe("helloWorld", function() {
 
 describe("hello", function() {
 
-  xit("returns Hello plus the string you pass it", function() {
+  it("returns Hello plus the string you pass it", function() {
     expect(yourCode.hello('Frog')).toEqual("Hello Frog");
   });
 
@@ -18,11 +18,11 @@ describe("hello", function() {
 
 describe("shout", function() {
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Frog')).toEqual("Hello FROG");
   });
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Fox')).toEqual("Hello FOX");
   });
 
