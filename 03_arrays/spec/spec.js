@@ -81,7 +81,7 @@ describe('union', function() {
 });
 
 describe('intersection', function() {
-  xit('returns the intersection (e.g. common elements) of two arrays', function() {
+  it('returns the intersection (e.g. common elements) of two arrays', function() {
     expect(yourCode.intersection([1,2,3], ['a', '2', 1])).toEqual([1]);
   });
 });

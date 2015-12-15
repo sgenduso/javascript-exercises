@@ -44,6 +44,18 @@ module.exports = {
     }
   },
 
-  intersection: function (array1, array2) {}
-
+  intersection: function (array1, array2) {
+    var shorter;
+    var longer;
+    if (array1.length >= array2.length) {
+      shorter = array2;
+      longer = array1;
+    } else {
+      shorter = array1;
+      longer = array2;
+    }
+    return shorter.filter(function (e) {
+      return longer.indexOf(e) > -1;
+    });
+  }
 };
