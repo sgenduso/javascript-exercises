@@ -1,25 +1,28 @@
 module.exports = {
   person: function() {
-    // your code here
+    return {
+      firstName: 'John',
+      lastName: 'Mayer'
+    };
   },
-  
+
   sweetnessProperty: function() {
-    
+
   },
-  
+
   savorynessProperty: function() {
-    
+
   },
-  
+
   keys: function() {
-    
+
   },
-  
+
   sortedKeys: function() {
-    
+
   },
-  
+
   reverseSortedKeys: function() {
-    
+
   }
-}
+};
