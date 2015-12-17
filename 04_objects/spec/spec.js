@@ -9,7 +9,7 @@ describe('person', function() {
 });
 
 describe('sweetnesssProperty', function() {
-  xit('returns the value of the `sweetness` key', function() {
+  it('returns the value of the `sweetness` key', function() {
     var obj = {
       lastName: 'cool',
       sweetness: 'super',
@@ -18,7 +18,7 @@ describe('sweetnesssProperty', function() {
     expect(yourCode.sweetnessProperty(obj)).toEqual('super');
   });
 
-  xit('returns undefined when there is no `sweetness` key', function() {
+  it('returns undefined when there is no `sweetness` key', function() {
     expect(yourCode.sweetnessProperty({})).toEqual(undefined);
   });
 });

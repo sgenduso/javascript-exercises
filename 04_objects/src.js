@@ -6,8 +6,8 @@ module.exports = {
     };
   },
 
-  sweetnessProperty: function() {
-
+  sweetnessProperty: function(obj) {
+    return obj.sweetness;
   },
 
   savorynessProperty: function() {
