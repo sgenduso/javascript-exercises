@@ -39,7 +39,7 @@ describe('savorynessProperty', function() {
 });
 
 describe('keys', function() {
-  xit('returns the keys of the given object as an Array', function() {
+  it('returns the keys of the given object as an Array', function() {
     var obj = {
       the: true,
       best: [1,2,3],
@@ -48,7 +48,7 @@ describe('keys', function() {
     expect(yourCode.keys(obj)).toEqual(['the', 'best', 'object']);
   });
 
-  xit('returns an empty Array when given an empty object', function() {
+  it('returns an empty Array when given an empty object', function() {
     expect(yourCode.keys({})).toEqual([]);
   });
 });

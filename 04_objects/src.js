@@ -14,8 +14,12 @@ module.exports = {
     return obj['savory-ness'];
   },
 
-  keys: function() {
-
+  keys: function(obj) {
+    var keys = [];
+    for (var key in obj) {
+      keys.push(key);
+    }
+    return keys;
   },
 
   sortedKeys: function() {
