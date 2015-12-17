@@ -10,8 +10,8 @@ module.exports = {
     return obj.sweetness;
   },
 
-  savorynessProperty: function() {
-
+  savorynessProperty: function(obj) {
+    return obj['savory-ness'];
   },
 
   keys: function() {
