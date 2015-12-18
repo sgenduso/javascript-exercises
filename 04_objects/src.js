@@ -18,11 +18,11 @@ module.exports = {
     return Object.keys(obj);
   },
 
-  sortedKeys: function() {
-
+  sortedKeys: function(obj) {
+    return Object.keys(obj).sort();
   },
 
   reverseSortedKeys: function() {
-
+    return Object.keys(obj).sort().reverse();
   }
 };
