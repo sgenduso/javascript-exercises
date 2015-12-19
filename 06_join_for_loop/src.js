@@ -6,6 +6,12 @@ module.exports = {
 
   joinWithFor: function(list) {
     // your code here
+  },
+  joinWithForAndIndex: function(list) {
+    // your code here
+  }
+  joinWithForAndToken: function(list) {
+    // your code here
   }
 
 }
