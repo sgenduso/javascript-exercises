@@ -6,7 +6,7 @@
 
 module.exports = {
   addition: function(a,b) {
-    a + b;
+    return a + b;
   },
 
   matches: function(first, second) {
