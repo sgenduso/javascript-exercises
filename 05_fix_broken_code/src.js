@@ -43,12 +43,15 @@ module.exports = {
     switch (word) {
       case 'foo':
         output = 'bar';
+        break;
       case 'nope':
         output = 'yup';
+        break;
       default:
-        output = 'never output anything. ever!'
-    };
+        output = 'never output anything. ever!';
+    }
 
     return output;
   }
-}
+
+};

@@ -31,15 +31,15 @@ describe('fizzBuzz', function() {
 });
 
 describe('switcher', function() {
-  xit('returns "never output anything. ever!" for arguments that are not "foo" or "nope"', function() {
+  it('returns "never output anything. ever!" for arguments that are not "foo" or "nope"', function() {
     expect(yourCode.switcher('random')).toEqual('never output anything. ever!');
   });
 
-  xit('returns "bar" for argument "foo"', function() {
+  it('returns "bar" for argument "foo"', function() {
     expect(yourCode.switcher('foo')).toEqual('bar');
   });
 
-  xit('returns "yup" for argument "nope"', function() {
+  it('returns "yup" for argument "nope"', function() {
     expect(yourCode.switcher('nope')).toEqual('yup');
   });
 });
