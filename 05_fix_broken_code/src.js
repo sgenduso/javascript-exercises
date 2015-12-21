@@ -22,8 +22,8 @@ module.exports = {
   },
 
   fizzBuzz: function(number) {
-    var divisibleByThree = number % 3,
-        divisibleByFive = number % 5,
+    var divisibleByThree = (number % 3 === 0),
+        divisibleByFive = (number % 5 === 0),
         output = number;
 
     if (divisibleByThree && divisibleByFive) {

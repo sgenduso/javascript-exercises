@@ -17,15 +17,15 @@ describe('matches', function() {
 });
 
 describe('fizzBuzz', function() {
-  xit('returns fizz when the argument is divisible by 3', function() {
+  it('returns fizz when the argument is divisible by 3', function() {
     expect(yourCode.fizzBuzz(3)).toEqual('Fizz');
   });
 
-  xit('returns buzz when the argument is divisible by 5', function() {
+  it('returns buzz when the argument is divisible by 5', function() {
     expect(yourCode.fizzBuzz(5)).toEqual('Buzz');
   });
 
-  xit('returns the number itself when it is not divisible by 3 or 5', function() {
+  it('returns the number itself when it is not divisible by 3 or 5', function() {
     expect(yourCode.fizzBuzz(7)).toEqual(7);
   });
 });
