@@ -7,11 +7,11 @@ describe('addition', function() {
 });
 
 describe('matches', function() {
-  xit('returns true if the given arguments match', function() {
+  it('returns true if the given arguments match', function() {
     expect(yourCode.matches('a', 'a')).toEqual(true);
   });
 
-  xit('returns false if the given arguments do not match', function() {
+  it('returns false if the given arguments do not match', function() {
     expect(yourCode.matches('a', 'b')).toEqual(false);
   });
 });

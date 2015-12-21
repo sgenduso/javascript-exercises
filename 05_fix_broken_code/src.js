@@ -12,7 +12,7 @@ module.exports = {
   matches: function(first, second) {
     var result;
 
-    if (first = second) {
+    if (first == second) {
       result = true;
     } else {
       result = false;
