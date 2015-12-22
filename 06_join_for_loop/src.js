@@ -15,8 +15,17 @@ module.exports = {
   },
   joinWithForAndIndex: function(list) {
     // your code here
-  }
+  },
+
+  joinWithoutOddCharacters: function(list) {
+    // your code here
+  },
+
   joinWithForAndToken: function(list) {
+    // your code here
+  },
+
+  joinWithForAndAlternatingTokens: function(list) {
     // your code here
   }
 
