@@ -23,11 +23,11 @@ describe('joinWithoutOddCharacters', function() {
 });
 
 describe('joinWithForAndToken', function() {
-  xit('returns a String with the elements of the array joined, separated by the provided token', function() {
+  it('returns a String with the elements of the array joined, separated by the provided token', function() {
     expect(yourCode.joinWithForAndToken(['a', 'b', 'c'], '*')).toEqual('a*b*c');
   });
 
-  xit('returns an empty String for an empty array', function() {
+  it('returns an empty String for an empty array', function() {
     expect(yourCode.joinWithForAndToken([], '*')).toEqual('');
   });
 });

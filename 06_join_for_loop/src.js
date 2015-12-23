@@ -31,8 +31,12 @@ module.exports = {
     return string;
   },
 
-  joinWithForAndToken: function(list) {
-    // your code here
+  joinWithForAndToken: function(list, token) {
+    var string = '';
+    list.forEach(function (thing) {
+      string += thing;
+    });
+    return string.split('').join(token);
   },
 
   joinWithForAndAlternatingTokens: function(list) {
