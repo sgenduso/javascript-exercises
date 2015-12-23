@@ -7,7 +7,7 @@ module.exports = {
   joinWithFor: function(list) {
     var string = '';
     list.forEach(function (thing) {
-      sting += thing;
+      string += thing;
     });
     return string;
     // your code here
@@ -22,7 +22,13 @@ module.exports = {
   },
 
   joinWithoutOddCharacters: function(list) {
-    // your code here
+    var string = '';
+    list.forEach(function (thing, i) {
+      if (i % 2 === 0) {
+        string += thing;
+      }
+    });
+    return string;
   },
 
   joinWithForAndToken: function(list) {

@@ -13,11 +13,11 @@ describe('joinWithForAndIndex', function() {
 });
 
 describe('joinWithoutOddCharacters', function() {
-  xit ('returns a joined String of the elements that have an even-index in the given array', function() {
+  it ('returns a joined String of the elements that have an even-index in the given array', function() {
     expect(yourCode.joinWithoutOddCharacters(['c','a','t','s',' ','a','r','e',' ','c','o','o','l'])).toEqual('ct r ol');
   });
 
-  xit ('returns an empty String for an empty array', function() {
+  it ('returns an empty String for an empty array', function() {
     expect(yourCode.joinWithoutOddCharacters([])).toEqual('');
   });
 });
