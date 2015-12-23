@@ -11,5 +11,9 @@
 module.exports = {
   peak: function() {
     return '/\\';
+  },
+
+  valley: function () {
+    return '___';
   }
 };

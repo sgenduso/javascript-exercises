@@ -7,7 +7,7 @@ describe('peak', function() {
 });
 
 describe('valley', function() {
-  xit('returns a string representing a valley', function() {
+  it('returns a string representing a valley', function() {
     expect(yourCode.valley()).toEqual('___');
   });
 });
