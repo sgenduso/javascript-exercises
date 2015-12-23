@@ -15,5 +15,14 @@ module.exports = {
 
   valley: function () {
     return '___';
+  },
+
+  peaks: function (num) {
+    var peak = '/\\';
+    var string = '';
+    for (var i = 0; i < num; i++) {
+      string += peak;
+    }
+    return string;
   }
 };

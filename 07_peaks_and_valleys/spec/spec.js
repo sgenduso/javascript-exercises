@@ -13,7 +13,7 @@ describe('valley', function() {
 });
 
 describe('peaks', function() {
-  xit('returns the number of peaks provided as an argument', function() {
+  it('returns the number of peaks provided as an argument', function() {
     expect(yourCode.peaks(3)).toEqual('/\\/\\/\\');
   });
 });
