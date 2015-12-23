@@ -39,8 +39,13 @@ module.exports = {
     return string.split('').join(token);
   },
 
-  joinWithForAndAlternatingTokens: function(list) {
-    // your code here
+  joinWithForAndAlternatingTokens: function(list, token1, token2) {
+    var string = '';
+    list.forEach(function (thing, i) {
+      token = (i % 2 === 0) ? token1 : token2;
+      string += thing + token;
+    });
+    return string.slice(0, -1);
   }
 
-}
+};
