@@ -10,6 +10,6 @@
 
 module.exports = {
   peak: function() {
-    // your code here
+    return '/\\';
   }
-}
+};
