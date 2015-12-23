@@ -7,7 +7,7 @@ describe('joinWithFor', function() {
 });
 
 describe('joinWithForAndIndex', function() {
-  xit('returns a string with the elements of the array joined by their index', function() {
+  it('returns a string with the elements of the array joined by their index', function() {
     expect(yourCode.joinWithForAndIndex(['a', 'b', 'c', 'd'])).toEqual("a0b1c2d3");
   });
 });

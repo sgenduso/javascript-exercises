@@ -14,7 +14,11 @@ module.exports = {
 
   },
   joinWithForAndIndex: function(list) {
-    // your code here
+    var string = '';
+    list.forEach(function (thing, i) {
+      string += thing + i;
+    });
+    return string;
   },
 
   joinWithoutOddCharacters: function(list) {
