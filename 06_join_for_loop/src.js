@@ -1,7 +1,3 @@
-/*
-  Use a for loop, NOT forEach to complete each warm-up.
-*/
-
 module.exports = {
 
   joinWithFor: function(list) {
@@ -10,9 +6,8 @@ module.exports = {
       string += thing;
     });
     return string;
-    // your code here
-
   },
+
   joinWithForAndIndex: function(list) {
     var string = '';
     list.forEach(function (thing, i) {

@@ -24,5 +24,14 @@ module.exports = {
       string += peak;
     }
     return string;
+  },
+
+  valleys: function (num) {
+    var valley = '___';
+    var string = '';
+    for (var i = 0; i < num; i++) {
+      string += valley;
+    }
+    return string;
   }
 };
