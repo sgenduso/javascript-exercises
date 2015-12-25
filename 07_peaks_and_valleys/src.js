@@ -33,5 +33,18 @@ module.exports = {
       string += valley;
     }
     return string;
+  },
+
+  peaksAndValleys: function (numPeaks, numValleys) {
+    var string = '';
+    var peak = '/\\';
+    var valley = '___';
+    for (var i = 0; i < numPeaks; i++) {
+      string += peak;
+    }
+    for (var j = 0; j < numValleys; j++) {
+      string += valley;
+    }
+    return string;
   }
 };

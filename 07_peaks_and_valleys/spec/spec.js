@@ -19,13 +19,13 @@ describe('peaks', function() {
 });
 
 describe('valleys', function() {
-  xit('returns the number of valleys provided as an argument', function() {
+  it('returns the number of valleys provided as an argument', function() {
     expect(yourCode.valleys(2)).toEqual('______');
   });
 });
 
 describe('peaksAndValleys', function() {
-  xit('returns the number of peaks and valleys provided as arguments', function() {
+  it('returns the number of peaks and valleys provided as arguments', function() {
     expect(yourCode.peaksAndValleys(2,1)).toEqual('/\\/\\___');
 
   });
