@@ -31,8 +31,8 @@ describe('peaksAndValleys', function() {
   });
 
   // Once you're done uncomment these 4-lines:
-  // console.log("\n");
-  // console.log('Nice job! Now enjoy some mountains:')
-  // console.log(yourCode.peaksAndValleys(2,1) + yourCode.peaksAndValleys(3,1) + yourCode.peaksAndValleys(1,0));
-  // console.log("\n");
+  console.log("\n");
+  console.log('Nice job! Now enjoy some mountains:');
+  console.log(yourCode.peaksAndValleys(2,1) + yourCode.peaksAndValleys(3,1) + yourCode.peaksAndValleys(1,0));
+  console.log("\n");
 });

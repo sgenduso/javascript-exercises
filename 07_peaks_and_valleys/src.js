@@ -46,5 +46,9 @@ module.exports = {
       string += valley;
     }
     return string;
+  },
+
+  returnOne: function (peakOrValley) {
+    return peakOrValley == 'peak' ? '/\\' : '___';
   }
 };
