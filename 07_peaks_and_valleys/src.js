@@ -50,5 +50,14 @@ module.exports = {
 
   returnOne: function (peakOrValley) {
     return peakOrValley == 'peak' ? '/\\' : '___';
+  },
+
+  returnX: function (peakOrValley, num) {
+    var shape = peakOrValley == 'peak' ? '/\\' : '___';
+    var string = '';
+    for (var i = 0; i < num; i++) {
+      string += shape;
+    }
+    return string;
   }
 };
