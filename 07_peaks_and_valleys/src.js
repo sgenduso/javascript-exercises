@@ -10,11 +10,11 @@
 
 module.exports = {
   peak: function() {
-    return '/\\';
+    return this.returnOne('peak');
   },
 
   valley: function () {
-    return '___';
+    return this.returnOne('valley');
   },
 
   peaks: function (num) {
