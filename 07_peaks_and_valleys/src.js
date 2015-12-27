@@ -18,21 +18,11 @@ module.exports = {
   },
 
   peaks: function (num) {
-    var peak = '/\\';
-    var string = '';
-    for (var i = 0; i < num; i++) {
-      string += peak;
-    }
-    return string;
+    return this.returnX('peak', num);
   },
 
   valleys: function (num) {
-    var valley = '___';
-    var string = '';
-    for (var i = 0; i < num; i++) {
-      string += valley;
-    }
-    return string;
+    return this.returnX('valley', num);
   },
 
   peaksAndValleys: function (numPeaks, numValleys) {
