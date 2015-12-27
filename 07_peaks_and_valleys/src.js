@@ -10,11 +10,11 @@
 
 module.exports = {
   peak: function() {
-    return this.returnOne('peak');
+    return this.returnX('peak', 1);
   },
 
   valley: function () {
-    return this.returnOne('valley');
+    return this.returnX('valley', 1);
   },
 
   peaks: function (num) {
@@ -36,10 +36,6 @@ module.exports = {
       string += valley;
     }
     return string;
-  },
-
-  returnOne: function (peakOrValley) {
-    return peakOrValley == 'peak' ? '/\\' : '___';
   },
 
   returnX: function (peakOrValley, num) {
