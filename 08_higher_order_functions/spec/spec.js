@@ -7,7 +7,7 @@ describe('simpeCall', function() {
 
     var myFunc = function(input){
       return rand;
-    }
+    };
 
     expect(yourCode.simpleCall(myFunc)).toEqual(rand);
   });
