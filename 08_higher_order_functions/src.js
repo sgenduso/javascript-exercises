@@ -22,5 +22,13 @@ module.exports = {
     for (var i = startVal; i < array.length; i++) {
       callback(val, array[i]);
     }
+  },
+
+  find: function (array, callback) {
+    for (var i = 0; i < array.length; i++) {
+      if (callback(array[i])) {
+        return array[i];
+      }
+    }
   }
 };
