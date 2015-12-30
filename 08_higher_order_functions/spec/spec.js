@@ -46,7 +46,7 @@ describe('map', function() {
 });
 
 describe('reduce', function() {
-  xit('calls the function passed to it, given a starting value, and returns a single, accumulated value', function() {
+  it('calls the function passed to it, given a starting value, and returns a single, accumulated value', function() {
     var rand = (new Date()).getMilliseconds();
     var items = [rand,1,2,3];
 
