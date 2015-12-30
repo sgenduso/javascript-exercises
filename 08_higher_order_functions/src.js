@@ -8,5 +8,12 @@ module.exports = {
     for (var i = 0; i < array.length; i++) {
       callback(array[i]);
     }
+  },
+
+  map: function (array, callback) {
+    var returnArr = [];
+    for (var i = 0; i < array.length; i++) {
+      returnArr[i] = callback(array[i]);
+    }
   }
 };
