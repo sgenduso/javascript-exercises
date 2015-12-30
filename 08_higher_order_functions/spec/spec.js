@@ -84,13 +84,13 @@ describe('find', function() {
 });
 
 describe('any', function() {
-  xit('returns true if any element of the array matches the condition established by the provided callback function', function() {
+  it('returns true if any element of the array matches the condition established by the provided callback function', function() {
     var callback = function(elem) { return elem.length === 2; };
 
     expect(yourCode.any(['a', 'no', 'nope'], callback)).toEqual(true);
   });
 
-  xit('returns false if no element of the array matches the condition provided by the callback function', function() {
+  it('returns false if no element of the array matches the condition provided by the callback function', function() {
     var callback = function(elem) { return elem % 2 === 0; };
 
     expect(yourCode.any([1,3,5,7,9], callback)).toEqual(false);
