@@ -46,7 +46,7 @@ describe('map', function() {
 });
 
 describe('reduce', function() {
-  it('calls the function passed to it, given a starting value, and returns a single, accumulated value', function() {
+  xit('calls the function passed to it, given a starting value, and returns a single, accumulated value', function() {
     var rand = (new Date()).getMilliseconds();
     var items = [rand,1,2,3];
 
@@ -57,7 +57,7 @@ describe('reduce', function() {
     expect(result).toEqual(rand + 6);
   });
 
-  it('behaves correctly with String arguments', function() {
+  xit('behaves correctly with String arguments', function() {
     var rand = (new Date()).getMilliseconds();
     var items = ['dog',' ','food',' ','your',' ','code','!'];
 
@@ -70,13 +70,13 @@ describe('reduce', function() {
 });
 
 describe('find', function() {
-  it('returns the element that matches the given callback function', function() {
+  xit('returns the element that matches the given callback function', function() {
     var callback = function(elem) { return elem === 'awesome'; };
 
     expect(yourCode.find(['always', 'awesome', 'sometimes'], callback)).toEqual('awesome');
   });
 
-  it('returns undefined if no element matches the condition', function() {
+  xit('returns undefined if no element matches the condition', function() {
     var callback = function(elem) { return elem === 1; };
 
     expect(yourCode.find([0,2,4], callback)).toEqual(undefined);
@@ -84,13 +84,13 @@ describe('find', function() {
 });
 
 describe('any', function() {
-  it('returns true if any element of the array matches the condition established by the provided callback function', function() {
+  xit('returns true if any element of the array matches the condition established by the provided callback function', function() {
     var callback = function(elem) { return elem.length === 2; };
 
     expect(yourCode.any(['a', 'no', 'nope'], callback)).toEqual(true);
   });
 
-  it('returns false if no element of the array matches the condition provided by the callback function', function() {
+  xit('returns false if no element of the array matches the condition provided by the callback function', function() {
     var callback = function(elem) { return elem % 2 === 0; };
 
     expect(yourCode.any([1,3,5,7,9], callback)).toEqual(false);

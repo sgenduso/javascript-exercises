@@ -15,6 +15,7 @@ module.exports = {
     for (var i = 0; i < array.length; i++) {
       returnArr[i] = callback(array[i]);
     }
+    return returnArr;
   },
 
   reduce: function (array, startVal, callback) {
