@@ -98,13 +98,13 @@ describe('any', function() {
 });
 
 describe('all', function() {
-  xit('returns true if all elements of the array match the condition established by the provided callback function', function() {
+  it('returns true if all elements of the array match the condition established by the provided callback function', function() {
     var callback = function(elem) { return elem % 2 === 0; };
 
     expect(yourCode.all([0,2,4,6,8], callback)).toEqual(true);
   });
 
-  xit('returns false if any element does not meet the criteria of the provided callback function', function() {
+  it('returns false if any element does not meet the criteria of the provided callback function', function() {
     var callback = function(elem) { return elem.length > 10; };
 
     expect(yourCode.all(['coding', 'is', 'nerd', 'sports'], callback)).toEqual(false);
