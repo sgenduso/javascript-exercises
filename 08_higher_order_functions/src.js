@@ -19,10 +19,11 @@ module.exports = {
   },
 
   reduce: function (array, startVal, callback) {
-    var val;
+    var val = 0;
     for (var i = startVal; i < array.length; i++) {
-      callback(val, array[i]);
+      val = callback(val, array[i]);
     }
+    return val;
   },
 
   find: function (array, callback) {
