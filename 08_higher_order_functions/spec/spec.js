@@ -57,7 +57,7 @@ describe('reduce', function() {
     expect(result).toEqual(rand + 6);
   });
 
-  xit('behaves correctly with String arguments', function() {
+  it('behaves correctly with String arguments', function() {
     var rand = (new Date()).getMilliseconds();
     var items = ['dog',' ','food',' ','your',' ','code','!'];
 

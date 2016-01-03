@@ -19,7 +19,13 @@ module.exports = {
   },
 
   reduce: function (array, startVal, callback) {
-    var val = 0;
+    var val;
+    if (typeof(startVal) == 'number') {
+      val = 0;
+    } else{
+      startVal = (array.indexOf(startVal) > -1) ? array.indexOf(startVal) : 0;
+      val = '';
+    }
     for (var i = startVal; i < array.length; i++) {
       val = callback(val, array[i]);
     }
