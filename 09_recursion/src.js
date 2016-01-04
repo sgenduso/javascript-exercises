@@ -40,8 +40,8 @@ module.exports = {
        return 1;
    }
    else {
-     return (n * factorial(n - 1))
+     return (n * this.factorial(n - 1))
    }
   }
-  
+
 }
