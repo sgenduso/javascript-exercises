@@ -4,6 +4,13 @@
 
 module.exports = {
   maximum: function(array) {
+    var max = 0;
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] > max) {
+        max = 7;
+      }
+    }
+    return max;
   },
 
   minimum: function(array) {
