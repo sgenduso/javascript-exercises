@@ -4,10 +4,10 @@
 
 module.exports = {
   maximum: function(array) {
-    var max = 0;
+    max = array.length ? 0 : undefined;
     for (var i = 0; i < array.length; i++) {
       if (array[i] > max) {
-        max = 7;
+        max = array[i];
       }
     }
     return max;

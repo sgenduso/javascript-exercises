@@ -2,12 +2,10 @@ var yourCode = require('../src');
 
 describe('maximum', function() {
   it('returns the maximum value from the given array', function() {
-    pending();
     expect(yourCode.maximum([34, 12, 45, 32, 100])).toEqual(100);
   });
 
   it('returns undefined for an empty array', function() {
-    pending();
     expect(yourCode.maximum([])).toEqual(undefined);
   });
 });
