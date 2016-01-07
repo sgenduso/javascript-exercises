@@ -12,12 +12,10 @@ describe('maximum', function() {
 
 describe('minimum', function() {
   it('returns the minimum value from the given array', function() {
-    pending();
     expect(yourCode.minimum([34, 12, 45, 32, 100])).toEqual(12);
   });
 
   it('returns undefined for an empty array', function() {
-    pending();
     expect(yourCode.minimum([])).toEqual(undefined);
   });
 });

@@ -14,6 +14,16 @@ module.exports = {
   },
 
   minimum: function(array) {
+    var min = undefined;
+    for (var i = 0; i < array.length; i++) {
+      if (i == 0) {
+        min = array[i];
+      }
+      if (array[i] < min) {
+        min = array[i];
+      }
+    }
+    return min;
   },
 
   average: function(arrayOfNumbers) {
