@@ -22,7 +22,6 @@ describe('minimum', function() {
 
 describe('average', function() {
   it('returns the average of the numeric values in the given array', function() {
-    pending();
     expect(yourCode.average([10, 20, 30])).toEqual(20);
   });
 

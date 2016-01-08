@@ -27,6 +27,11 @@ module.exports = {
   },
 
   average: function(arrayOfNumbers) {
+    var sum = 0;
+    arrayOfNumbers.forEach(function (num) {
+      sum += num;
+    });
+    return sum / arrayOfNumbers.length;
   },
 
   matrixRowMaximum: function(arrayOfArrays) {
