@@ -35,6 +35,11 @@ module.exports = {
   },
 
   matrixRowMaximum: function(arrayOfArrays) {
+    var result = [];
+    arrayOfArrays.forEach(function (array) {
+      result.push(this.maximum(array));
+    });
+    return result;
   },
 
   matrixRowMinimum: function(arrayOfArrays) {

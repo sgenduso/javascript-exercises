@@ -26,14 +26,12 @@ describe('average', function() {
   });
 
   it('returns NaN when the array is empty', function() {
-    pending();
     expect(yourCode.average([])).toEqual(NaN);
   });
 });
 
 describe('matrixRowMaximum', function() {
   it('returns an Array containing an element representing the maximum of each row of the input', function() {
-    pending();
     expect(yourCode.matrixRowMaximum([[1,2,3], [3,4,5]])).toEqual([3, 5]);
   });
 });
