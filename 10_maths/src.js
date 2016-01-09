@@ -43,6 +43,11 @@ module.exports = {
   },
 
   matrixRowMinimum: function(arrayOfArrays) {
+    var result = [];
+    arrayOfArrays.forEach(function (array) {
+      result.push(this.minimum(array));
+    });
+    return result;
   },
 
   matrixRowAverage: function(arrayOfArrays) {

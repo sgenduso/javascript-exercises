@@ -38,7 +38,6 @@ describe('matrixRowMaximum', function() {
 
 describe('matrixRowMinimum', function() {
   it('returns an Array containing an element representing the maximum of each row of the input', function() {
-    pending();
     expect(yourCode.matrixRowMinimum([[1,2,3], [3,4,5]])).toEqual([1, 3]);
   });
 });
