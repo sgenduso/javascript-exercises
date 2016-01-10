@@ -35,17 +35,19 @@ module.exports = {
   },
 
   matrixRowMaximum: function(arrayOfArrays) {
+    var that = this;
     var result = [];
     arrayOfArrays.forEach(function (array) {
-      result.push(this.maximum(array));
+      result.push(that.maximum(array));
     });
     return result;
   },
 
   matrixRowMinimum: function(arrayOfArrays) {
+    var that = this;
     var result = [];
     arrayOfArrays.forEach(function (array) {
-      result.push(this.minimum(array));
+      result.push(that.minimum(array));
     });
     return result;
   },
