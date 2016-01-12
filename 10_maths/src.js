@@ -53,6 +53,12 @@ module.exports = {
   },
 
   matrixRowAverage: function(arrayOfArrays) {
+    var that = this;
+    var result = [];
+    arrayOfArrays.forEach(function (array) {
+      result.push(that.average(array));
+    });
+    return result;
   },
 
   sortedRowMatrix: function(arrayOfArrays) {

@@ -44,7 +44,6 @@ describe('matrixRowMinimum', function() {
 
 describe('matrixRowAverage', function() {
   it('returns an Array containing an element representing the average of each row of the input', function() {
-    pending();
     expect(yourCode.matrixRowAverage([[1,2,3], [3,4,5]])).toEqual([2, 4]);
   });
 });
