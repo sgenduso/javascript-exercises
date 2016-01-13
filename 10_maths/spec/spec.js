@@ -57,7 +57,6 @@ describe('sortedRowMatrix', function() {
 
 describe('lengthOfWords', function() {
   it('returns an array containing a count of the letter in each word of the provided sentence (string arugument)', function() {
-    pending();
     expect(yourCode.lengthOfWords('The lazy brown fox jumped')).toEqual([3,4,5,3,6]);
   });
 });

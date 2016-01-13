@@ -65,5 +65,8 @@ module.exports = {
   },
 
   lengthOfWords: function(sentence) {
+    return sentence.split(' ').map(function (word) {
+      return word.length;
+    })
   }
 }
