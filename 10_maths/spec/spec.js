@@ -50,7 +50,6 @@ describe('matrixRowAverage', function() {
 
 describe('sortedRowMatrix', function() {
   it('returns an array of arrays, containing each sorted row of the input', function() {
-    pending();
     expect(yourCode.sortedRowMatrix([[2,3,1], [3,4,2,5]])).toEqual([[1,2,3], [2,3,4,5]]);
   });
 });

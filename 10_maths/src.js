@@ -62,6 +62,9 @@ module.exports = {
   },
 
   sortedRowMatrix: function(arrayOfArrays) {
+    return arrayOfArrays.map(function (array) {
+      return array.sort();
+    })
   },
 
   lengthOfWords: function(sentence) {
