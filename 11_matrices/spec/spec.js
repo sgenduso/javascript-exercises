@@ -42,7 +42,6 @@ describe('matrixAddition', function() {
 
 describe('matrixSubtraction', function() {
   it('returns the result of position-wise subtraction of two matrices (e.g. position ij of matrix A is added to position ij of matrix B for all i,j) of the same size', function() {
-    pending();
     var a = [
       [1, 0],
       [0, 1]

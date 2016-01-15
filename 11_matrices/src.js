@@ -61,5 +61,16 @@ module.exports = {
     return matrix;
   },
 
-  
+  matrixSubtraction: function (arr1, arr2) {
+    var matrix = [];
+    for (var i = 0; i < arr1.length; i++) {
+      matrix[i] = [];
+      for (var j = 0; j < arr1.length; j++) {
+        matrix[i][j] = arr1[i][j] - arr2[i][j];
+      }
+    }
+    return matrix;
+  },
+
+
 }
