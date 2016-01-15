@@ -8,7 +8,6 @@ describe('twoByTwoIdentityMatrix', function() {
 
 describe('identityMatrix', function() {
   it('returns an identity matrix sized corresponding to the argument', function() {
-    pending();
     var expectedOutput = [
       [1, 0, 0, 0],
       [0, 1, 0, 0],

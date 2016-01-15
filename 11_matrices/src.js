@@ -40,5 +40,13 @@ module.exports = {
   },
 
   identityMatrix: function(n) {
-  },
+    var matrix = [];
+    for (var i = 0; i < n; i++) {
+      matrix[i] = [];
+      for (var j = 0; j < n; j++) {
+        matrix[i][j] = (i === j) ? 1 : 0;
+        }
+      }
+      return matrix;
+    },
 }
