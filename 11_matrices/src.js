@@ -33,6 +33,10 @@
 
 module.exports = {
   twoByTwoIdentityMatrix: function() {
+    return [
+      [1,0],
+      [0,1]
+    ];
   },
 
   identityMatrix: function(n) {

@@ -2,7 +2,6 @@ var yourCode = require('../src');
 
 describe('twoByTwoIdentityMatrix', function() {
   it('returns the 2X2 identity matrix', function() {
-    pending();
     expect(yourCode.twoByTwoIdentityMatrix()).toEqual([[1, 0], [0, 1]]);
   });
 });
