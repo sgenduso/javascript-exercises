@@ -63,7 +63,6 @@ describe('matrixSubtraction', function() {
 
 describe('matrixConstantMultiplication', function () {
   it('returns the product of a constant times each element of the matrix', function () {
-    pending();
     var matrix = yourCode.identityMatrix(3);
     var expected = [
       [3, 0, 0],

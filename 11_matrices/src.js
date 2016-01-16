@@ -72,5 +72,16 @@ module.exports = {
     return matrix;
   },
 
+  matrixConstantMultiplication: function (multiplier, array) {
+    var matrix = [];
+    for (var i = 0; i < array.length; i++) {
+      matrix[i] = [];
+      for (var j = 0; j < array.length; j++) {
+        matrix[i][j] = array[i][j] * multiplier;
+      }
+    }
+    return matrix;
+  }
+
 
 }
