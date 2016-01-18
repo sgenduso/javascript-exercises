@@ -15,7 +15,7 @@ describe('divide', function() {
 });
 
 describe('add', function() {
-  xit('returns the result of addition of the arguments', function() {
+  it('returns the result of addition of the arguments', function() {
     expect(yourCode.add(1,2)).toEqual(3);
   });
 });

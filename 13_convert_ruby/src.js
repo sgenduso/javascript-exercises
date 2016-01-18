@@ -25,15 +25,15 @@ module.exports = {
     return num / den;
   },
 
-  // your code here for divide
-
   /*
     def add(a,b)
       a + b
     end
   */
 
-  // your code here for add
+  add: function (a, b) {
+    return a + b;
+  }
 
   /*
     def power(base, exponent)
