@@ -7,7 +7,7 @@ describe('returnArray', function() {
 });
 
 describe('divide', function() {
-  xit('returns the result of division of the arguments', function() {
+  it('returns the result of division of the arguments', function() {
     expect(yourCode.divide(1,2)).toEqual(0.5);
     expect(yourCode.divide(1,0)).toEqual(Infinity);
     expect(yourCode.divide(Infinity,Infinity)).toEqual(NaN);

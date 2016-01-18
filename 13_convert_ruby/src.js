@@ -13,13 +13,17 @@ module.exports = {
 
   returnArray: function() {
     return [1,2,3,4];
-  }
+  },
 
   /*
     def divide(numerator, denominator)
       numerator / denominator
     end
   */
+
+  divide: function (num, den) {
+    return num / den;
+  },
 
   // your code here for divide
 
