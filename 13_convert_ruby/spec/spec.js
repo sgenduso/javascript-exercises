@@ -33,7 +33,7 @@ describe('concatenation', function(){
 });
 
 describe('sub', function(){
-  xit('returns the result of replacing the first matching character in the given String with the provided replacement character', function() {
+  it('returns the result of replacing the first matching character in the given String with the provided replacement character', function() {
     expect(yourCode.sub('aaBBaaBaBaAbAb', 'a', 'b')).toEqual('baBBaaBaBaAbAb');
   });
 });

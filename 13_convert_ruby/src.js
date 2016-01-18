@@ -53,7 +53,7 @@ module.exports = {
 
   concatenate: function (str1, str2) {
     return str1 + str2;
-  }
+  },
 
   /*
     def sub(string, char, replacement)
@@ -61,5 +61,8 @@ module.exports = {
     end
   */
 
-  // your code here for sub
+  sub: function (str, char, replacement) {
+    return str.replace(char, replacement);
+  }
+
 }
