@@ -33,7 +33,7 @@ module.exports = {
 
   add: function (a, b) {
     return a + b;
-  }
+  },
 
   /*
     def power(base, exponent)
@@ -41,7 +41,9 @@ module.exports = {
     end
   */
 
-  // your code here for power
+  power: function (base, exp) {
+    return Math.pow(base, exp);
+  }
 
   /*
     def concatenate(string_1, string_2)

@@ -21,7 +21,7 @@ describe('add', function() {
 });
 
 describe('power', function() {
-  xit('returns the result of exponentiation of the arguments', function() {
+  it('returns the result of exponentiation of the arguments', function() {
     expect(yourCode.power(4,3)).toEqual(64);
   });
 });
