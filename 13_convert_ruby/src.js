@@ -43,7 +43,7 @@ module.exports = {
 
   power: function (base, exp) {
     return Math.pow(base, exp);
-  }
+  },
 
   /*
     def concatenate(string_1, string_2)
@@ -51,7 +51,9 @@ module.exports = {
     end
   */
 
-  // your code here for concatenate
+  concatenate: function (str1, str2) {
+    return str1 + str2;
+  }
 
   /*
     def sub(string, char, replacement)

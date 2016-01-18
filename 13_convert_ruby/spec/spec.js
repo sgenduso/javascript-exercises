@@ -27,7 +27,7 @@ describe('power', function() {
 });
 
 describe('concatenation', function(){
-  xit('returns the result of concatenation of the (String) arguments', function() {
+  it('returns the result of concatenation of the (String) arguments', function() {
     expect(yourCode.concatenate('OOP', ' is cool')).toEqual('OOP is cool');
   });
 });
