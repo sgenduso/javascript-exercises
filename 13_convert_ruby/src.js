@@ -12,7 +12,7 @@ module.exports = {
   */
 
   returnArray: function() {
-    // your code here
+    return [1,2,3,4];
   }
 
   /*
