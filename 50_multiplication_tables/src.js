@@ -14,6 +14,9 @@
 
 module.exports = {
   twoTimesTable: function() {
+    return '   1 2\n' +
+           ' 1 1 2\n' +
+           ' 2 2 4';
   },
 
   timesTable: function(number) {

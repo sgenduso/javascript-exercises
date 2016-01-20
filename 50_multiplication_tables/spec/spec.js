@@ -2,7 +2,6 @@ var yourCode = require('../src');
 
 describe('twoTimesTable', function() {
   it('returns a String representing the "times" tables for 2', function() {
-    pending();
     var expectedOutput = '   1 2\n' +
                          ' 1 1 2\n' +
                          ' 2 2 4';
