@@ -20,5 +20,25 @@ module.exports = {
   },
 
   timesTable: function(number) {
+    var output = '';
+    var multipliers = [];
+    for (var i = 0; i <= number; i++) {
+      multipliers[i] = i;
+    }
+    console.log(multipliers);
+    for (var i = 0; i <= number; i++) {
+      var thisRow = [];
+      for (var j = 0; j < multipliers.length; j++) {
+        if (j==0) {
+          thisRow[j] = multipliers[i];
+        } else {
+          thisRow[j] = multipliers[i] * j;
+        }
+      }
+      console.log(thisRow);
+      output += thisRow.join(' ') + '\n';
+      console.log(output);
+    }
+    return output;
   }
 }
