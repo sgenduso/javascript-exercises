@@ -25,20 +25,23 @@ module.exports = {
     for (var i = 0; i <= number; i++) {
       multipliers[i] = i;
     }
-    console.log(multipliers);
     for (var i = 0; i <= number; i++) {
       var thisRow = [];
       for (var j = 0; j < multipliers.length; j++) {
-        if (j==0) {
-          thisRow[j] = multipliers[i];
+        if (i == 0) {
+          if (j == 0) {
+            thisRow[j] = '  ';
+          } else {
+            thisRow[j] = multipliers[j];
+          }
+        } else if (j == 0) {
+          thisRow[j] = '  ' + multipliers[i];
         } else {
-          thisRow[j] = multipliers[i] * j;
+          thisRow[j] = ' ' + multipliers[i] * j;
         }
       }
-      console.log(thisRow);
       output += thisRow.join(' ') + '\n';
-      console.log(output);
     }
-    return output;
+    return output.slice(0, -1);
   }
 }
