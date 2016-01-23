@@ -14,6 +14,4 @@
       return Game;
     };
 
-    module.exports = {
-      Game: new Game(),
-    }
+    module.exports = Game;

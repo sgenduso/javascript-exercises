@@ -4,6 +4,7 @@ describe("Game", function() {
   describe("hit / miss", function() {
 
     it("returns Game so it can be chained", function() {
+      Game = new Game();
       expect(Game.score).toEqual(0);
 
       Game.hit();
