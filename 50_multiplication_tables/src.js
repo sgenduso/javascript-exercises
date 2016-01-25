@@ -32,7 +32,7 @@ module.exports = {
           if (j == 0) {
             thisRow[j] = '  ';
           } else {
-            thisRow[j] = multipliers[j];
+            thisRow[j] = ' ' + multipliers[j];
           }
         } else if (j == 0) {
           thisRow[j] = '  ' + multipliers[i];
