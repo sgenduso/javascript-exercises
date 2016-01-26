@@ -19,4 +19,9 @@ var Node = function(name) {
   this.children = [];
 };
 
+Node.prototype.addChild = function (node) {
+  this.children.push(node);
+  node.parent = this;
+}
+
 module.exports = Node;
