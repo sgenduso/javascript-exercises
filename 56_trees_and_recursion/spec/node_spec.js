@@ -12,7 +12,6 @@ describe('Node', function() {
     });
 
     it("adds the child to the parents children array", function () {
-      pending();
       var node = new Node('root');
       var child = new Node('child');
 
