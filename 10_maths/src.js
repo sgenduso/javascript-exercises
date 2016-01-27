@@ -53,10 +53,19 @@ module.exports = {
   },
 
   matrixRowAverage: function(arrayOfArrays) {
-    var that = this;
+    return this.matrixRowMath(arrayOfArrays, this.average);
+    // var that = this;
+    // var result = [];
+    // arrayOfArrays.forEach(function (array) {
+    //   result.push(that.average(array));
+    // });
+    // return result;
+  },
+
+  matrixRowMath: function (arrayOfArrays, callback) {
     var result = [];
     arrayOfArrays.forEach(function (array) {
-      result.push(that.average(array));
+      result.push(callback(array));
     });
     return result;
   },
