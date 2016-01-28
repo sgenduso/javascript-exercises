@@ -44,22 +44,11 @@ module.exports = {
   },
 
   matrixRowMinimum: function(arrayOfArrays) {
-    var that = this;
-    var result = [];
-    arrayOfArrays.forEach(function (array) {
-      result.push(that.minimum(array));
-    });
-    return result;
+  return this.matrixRowMath(arrayOfArrays, this.minimum);
   },
 
   matrixRowAverage: function(arrayOfArrays) {
     return this.matrixRowMath(arrayOfArrays, this.average);
-    // var that = this;
-    // var result = [];
-    // arrayOfArrays.forEach(function (array) {
-    //   result.push(that.average(array));
-    // });
-    // return result;
   },
 
   matrixRowMath: function (arrayOfArrays, callback) {
