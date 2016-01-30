@@ -3,15 +3,13 @@
     };
 
     Game.prototype.hit = function () {
-      console.log('hit');
       this.score += 1;
-      return Game;
+      return this;
     };
 
     Game.prototype.miss = function () {
-      console.log('miss');
       this.score -= 1;
-      return Game;
+      return this;
     };
 
     module.exports = Game;
